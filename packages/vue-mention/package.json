@@ -6,6 +6,12 @@
     "name": "Guillaume Chau",
     "email": "guillaume.b.chau@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Felipe J. L. Rita",
+      "email": "felipelopesrita@gmail.com"
+    }
+  ],
   "keywords": [
     "vue",
     "vuejs",
@@ -29,13 +35,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Akryum/vue-mention.git",
+    "url": "git+https://github.com/magic-next/vue-mention.git",
     "directory": "packages/vue-mention"
   },
   "bugs": {
-    "url": "https://github.com/Akryum/vue-mention/issues"
+    "url": "https://github.com/magic-next/vue-mention/issues"
   },
-  "homepage": "https://github.com/Akryum/vue-mention#readme",
+  "homepage": "https://github.com/magic-next/vue-mention#readme",
   "publishConfig": {
     "access": "public"
   },
