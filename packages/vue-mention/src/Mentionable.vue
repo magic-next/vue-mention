@@ -33,6 +33,11 @@ export default {
       default: false,
     },
 
+    enableSpace: {
+      type: Boolean,
+      default: false,
+    },
+
     filteringDisabled: {
       type: Boolean,
       default: false,
@@ -273,8 +278,7 @@ export default {
     getLastSearchText (caretIndex, keyIndex) {
       if (keyIndex !== -1) {
         const searchText = this.getValue().substring(keyIndex + 1, caretIndex)
-        // If there is a space we close the menu
-        if (!/\s/.test(searchText)) {
+        if (this.enableSpace || !/\s/.test(searchText)) {
           return searchText
         }
       }
